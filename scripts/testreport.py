@@ -15,8 +15,8 @@ import time
 filesexclude = set([".*testreport.org~", ".*statsreport.org", "README.md", ".*metafile.org", ".*stats.org", ".*testreport.org", ".*.xlsx", ".*.html"])
 filescombinedexclude = "(" + ")|(".join(filesexclude) + ")"
 
-filesinclude = set([".*org"])
-filescombinedinclude = "(" + ")|(".join(filesinclude) + ")"
+#filesinclude = set([".*org"])
+#filescombinedinclude = "(" + ")|(".join(filesinclude) + ")"
 
 dirsexclude = set([".git", "IIT Bombay", "Amrita", "NIT Karnataka"])
 dirscombined = "(" + ")|(".join(dirsexclude) + ")"
@@ -42,13 +42,25 @@ def main(argv):
         else:
             print "Provided target does not exists!"
 
+def create_a_testreport_inside_project(projectName, path):
+    testReportPath = path + "/testreport.org"
+    linkToTestReport = "https://github.com/Virtual-Labs/test-report/tree/master/" + projectName
+    if not os.path.isfile(testReportPath):
+        filePointer = open(testReportPath, 'w')
+        content = "[[%s][View Test Report for %s Lab]]" %(linkToTestReport, projectName)
+        filePointer.write(content)
+        filePointer.close()
+    return
+
+
 def walk_over_path(path, targetDir):
     projectName = os.path.basename(path)
-    path = path + "/test-cases/integration_test-cases/"
-    for root, dirs, files in os.walk(path):
+    create_testreport_inside_project(projectName, path)
+    testCasesPath = path + "/test-cases/integration_test-cases/"
+    for root, dirs, files in os.walk(testCasesPath):
         dirs[:] = [d for d in dirs if not re.match(dirscombined, d)]
         files[:] = [f for f in files if not re.match(filescombinedexclude, f)]
-        files[:] = [f for f in files if re.match(filescombinedinclude, f)]
+        #files[:] = [f for f in files if re.match(filescombinedinclude, f)]
         if files:
             files = sorted(files)
             labName = root.split("/")[-2]
