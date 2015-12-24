@@ -1,6 +1,6 @@
 * Test Report
-** Lab Name : integration_test-cases
-** GitHub URL : https://github.com/Virtual-Labs/integration_test-cases
+** Lab Name : problem-solving-iiith
+** GitHub URL : https://github.com/Virtual-Labs/problem-solving-iiith
 ** Commit ID : 4b74be7a5f852708ba4a365cb257579b8204079d
 
 |-------+--------------------------+-----------------------------------------------------+-----------+----------+--------------|
