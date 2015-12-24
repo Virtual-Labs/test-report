@@ -1,2 +1,2 @@
-# test_report
-This repository holds the test report of all the virtual labs.
+# test_reports
+This repository holds the Test Reports of all the virtual Labs.
