@@ -1,0 +1,27 @@
+* Statistics Report
+** Lab Name : population-ecology-virtual-lab-ii-au
+** GitHub URL :https://github.com/Virtual-Labs/population-ecology-virtual-lab-ii-au
+** Commit ID : 8c8538b903c17fcb4e0e8a732f66754379217889
+** Detailed Statistics : https://github.com/issues
+
+Total number of passed test cases = 54
+
+Total number of defects with S1 severity = 15
+
+Total number of defects with S2 severity = 1
+
+Total number of defects with S3 severity = 0
+
+Total number of failed test cases = 16
+
+|-------+---------------------------------------------------------------+------------+-------------|
+| *S.no | Experiment Name                                               | Pass Count | Fail Count* |
+|-------+---------------------------------------------------------------+------------+-------------|
+|     1 | Optimal for aging Sit and wait predators that maximize energy |         18 |           5 |
+|-------+---------------------------------------------------------------+------------+-------------|
+|     2 | Optimal For Aging                                             |         16 |           5 |
+|-------+---------------------------------------------------------------+------------+-------------|
+|     3 | Optimal For Aging Pollinators                                 |         19 |           5 |
+|-------+---------------------------------------------------------------+------------+-------------|
+|     4 | Population Ecology Virtual Lab II                             |          1 |           1 |
+|-------+---------------------------------------------------------------+------------+-------------|

@@ -1,0 +1,37 @@
+* Statistics Report
+** Lab Name : virtual-smart-structures-and-dynamics-laboratory-iitd
+** GitHub URL : https://github.com/Virtual2-Labs/virtual-smart-structures-and-dynamics-laboratory-iitd
+** Commit ID : ca4cd808983c93309f8c2c245edc5788f24c3afd
+** Detailed Statistics : https://github.com/issues
+
+Total number of passed test cases = 141
+
+Total number of defects with S1 severity = 18
+
+Total number of defects with S2 severity = 4
+
+Total number of defects with S3 severity = 0
+
+Total number of failed test cases = 22
+
+|-------+----------------------------------------------------------------------------------------------------+------------+-------------|
+| *S.no | Experiment Name                                                                                    | Pass Count | Fail Count* |
+|-------+----------------------------------------------------------------------------------------------------+------------+-------------|
+|     1 | Identification of High Frequency axial Modes of Beam in                                            |         10 |           2 |
+|-------+----------------------------------------------------------------------------------------------------+------------+-------------|
+|     2 | Dynamics of bandra worli sea link bridge                                                           |         22 |           0 |
+|-------+----------------------------------------------------------------------------------------------------+------------+-------------|
+|     3 | Modes of Vibrations of Beams under flexure                                                         |         18 |           6 |
+|-------+----------------------------------------------------------------------------------------------------+------------+-------------|
+|     4 | Damage Detection and Qualitative Quantification Using Electro-Mechanical Impedance (EMI) Technique |         29 |           2 |
+|-------+----------------------------------------------------------------------------------------------------+------------+-------------|
+|     5 | Vibration Characteristics of Aluminum Cantilever Beam using Piezoelectric Sensors                  |         10 |           2 |
+|-------+----------------------------------------------------------------------------------------------------+------------+-------------|
+|     6 | Photogrammetry for Displacement Measurement                                                        |          8 |           2 |
+|-------+----------------------------------------------------------------------------------------------------+------------+-------------|
+|     7 | Forced  Excitation of Steel Beam using Portable Shaker                                             |         11 |           1 |
+|-------+----------------------------------------------------------------------------------------------------+------------+-------------|
+|     8 | Virtual Smart Structures and Dynamics                                                              |         15 |           1 |
+|-------+----------------------------------------------------------------------------------------------------+------------+-------------|
+|     9 | Modes of Vibrations of Plate                                                                       |         18 |           6 |
+|-------+----------------------------------------------------------------------------------------------------+------------+-------------|

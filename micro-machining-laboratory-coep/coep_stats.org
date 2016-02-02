@@ -1,0 +1,37 @@
+* Statistics Report
+** Lab Name : micro-machining-laboratory-coep
+** GitHub URL : https://github.com/Virtual-Labs/micro-machining-laboratory-coep
+** Commit ID : 59fa36476bce83792e632f9cd4fec06110f59ec1
+** Detailed Statistics : https://github.com/issues
+
+Total number of passed test cases = 213
+
+Total number of defects with S1 severity = 16
+
+Total number of defects with S2 severity = 14
+
+Total number of defects with S3 severity = 0
+
+Total number of failed test cases = 30
+
+|-------+--------------------------------------------------------------------+------------+-------------|
+| *S.no | Experiment Name                                                    | Pass Count | Fail Count* |
+|-------+--------------------------------------------------------------------+------------+-------------|
+|     1 | Micromachining laboratory                                          |          3 |           0 |
+|-------+--------------------------------------------------------------------+------------+-------------|
+|     2 | Laser spot welding using NdYAG laser system                        |         28 |           4 |
+|-------+--------------------------------------------------------------------+------------+-------------|
+|     3 | To study influence of process parameters on the Wire EDM           |         28 |           4 |
+|-------+--------------------------------------------------------------------+------------+-------------|
+|     4 | To study pulsed-heating of materials                               |         25 |           4 |
+|-------+--------------------------------------------------------------------+------------+-------------|
+|     5 | Study of Electrochemical machining process                         |         22 |           3 |
+|-------+--------------------------------------------------------------------+------------+-------------|
+|     6 | Study the effect of process parameters in electrochemical grinding |         25 |           3 |
+|-------+--------------------------------------------------------------------+------------+-------------|
+|     7 | To study erosion mechanism from Lazarenko's model                  |         25 |           4 |
+|-------+--------------------------------------------------------------------+------------+-------------|
+|     8 | Laser hardening using NdYAG laser system                           |         29 |           4 |
+|-------+--------------------------------------------------------------------+------------+-------------|
+|     9 | To study various thermal models for EDM                            |         28 |           4 |
+|-------+--------------------------------------------------------------------+------------+-------------|

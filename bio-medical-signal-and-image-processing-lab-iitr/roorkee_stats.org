@@ -1,0 +1,25 @@
+* Statistics Report
+** Lab Name : bio-medical-signal-and-image-processing-lab-iitr
+** GitHub URL : https://github.com/Virtual-Labs/bio-medical-signal-and-image-processing-lab-iitr
+** Commit ID : 54809de14f156e53bd56c67dface4d9d25e4d03e
+** Detailed Statistics : https://github.com/issues
+
+Total number of passed test cases = 68
+
+Total number of defects with S1 severity = 9
+
+Total number of defects with S2 severity = 4
+
+Total number of defects with S3 severity = 0
+
+Total number of failed test cases = 13
+
+|-------+---------------------------------------+------------+-------------|
+| *S.no | Experiment Name                       | Pass Count | Fail Count* |
+|-------+---------------------------------------+------------+-------------|
+|     1 | Digital Signal Processing Toolkit     |         20 |           7 |
+|-------+---------------------------------------+------------+-------------|
+|     2 | Image Processing Toolkit              |         24 |           3 |
+|-------+---------------------------------------+------------+-------------|
+|     3 | Bio-Medical Signal Processing Toolkit |         24 |           3 |
+|-------+---------------------------------------+------------+-------------|
