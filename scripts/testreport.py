@@ -112,7 +112,7 @@ def make_directory(directory):
 def getDateTime():
     timetuple = time.localtime()
     date = "%s-%s-%s" %(timetuple[2], timetuple[1], timetuple[0])
-    currenttime = "%shrs%smins%ssecs" %(timetuple[3], timetuple[4], timetuple[5])
+    currenttime = "%shrs-%smins-%ssecs" %(timetuple[3], timetuple[4], timetuple[5])
     return date, currenttime
 
 def createTestReport(projectName, gitLabUrl, allTestCasesLink, targetDir):
