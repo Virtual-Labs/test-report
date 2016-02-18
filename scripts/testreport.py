@@ -28,7 +28,7 @@ passfailColumnwidth = 10
 defectColumnwidth = 15
 severityColumnwidth = 12
 allTestCasesLink = []
-pathDelimeter = os.path.sep()
+pathDelimeter = os.path.sep
 
 
 def main(argv):
