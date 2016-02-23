@@ -17,7 +17,7 @@ Total number of failed test cases = 22
 |-------+----------------------------------------------------------------------------------------------------+------------+-------------|
 | *S.no | Experiment Name                                                                                    | Pass Count | Fail Count* |
 |-------+----------------------------------------------------------------------------------------------------+------------+-------------|
-|     1 | Identification of High Frequency axial Modes of Beam in                                            |         10 |           2 |
+|     1 | Identification of High Frequency axial Modes of Beam in                                            |         09 |           3 |
 |-------+----------------------------------------------------------------------------------------------------+------------+-------------|
 |     2 | Dynamics of bandra worli sea link bridge                                                           |         22 |           0 |
 |-------+----------------------------------------------------------------------------------------------------+------------+-------------|
@@ -25,11 +25,11 @@ Total number of failed test cases = 22
 |-------+----------------------------------------------------------------------------------------------------+------------+-------------|
 |     4 | Damage Detection and Qualitative Quantification Using Electro-Mechanical Impedance (EMI) Technique |         29 |           2 |
 |-------+----------------------------------------------------------------------------------------------------+------------+-------------|
-|     5 | Vibration Characteristics of Aluminum Cantilever Beam using Piezoelectric Sensors                  |         10 |           2 |
+|     5 | Vibration Characteristics of Aluminum Cantilever Beam using Piezoelectric Sensors                  |         09 |           3 |
 |-------+----------------------------------------------------------------------------------------------------+------------+-------------|
-|     6 | Photogrammetry for Displacement Measurement                                                        |          8 |           2 |
+|     6 | Photogrammetry for Displacement Measurement                                                        |          7 |           3 |
 |-------+----------------------------------------------------------------------------------------------------+------------+-------------|
-|     7 | Forced  Excitation of Steel Beam using Portable Shaker                                             |         11 |           1 |
+|     7 | Forced  Excitation of Steel Beam using Portable Shaker                                             |         10 |           2 |
 |-------+----------------------------------------------------------------------------------------------------+------------+-------------|
 |     8 | Virtual Smart Structures and Dynamics                                                              |         15 |           1 |
 |-------+----------------------------------------------------------------------------------------------------+------------+-------------|
