@@ -4,15 +4,15 @@
 ** Commit ID : ca4cd808983c93309f8c2c245edc5788f24c3afd
 ** Detailed Statistics : https://github.com/issues
 
-Total number of passed test cases = 141
+Total number of passed test cases = 137
 
-Total number of defects with S1 severity = 18
+Total number of defects with S1 severity = 22
 
 Total number of defects with S2 severity = 4
 
 Total number of defects with S3 severity = 0
 
-Total number of failed test cases = 22
+Total number of failed test cases = 26
 
 |-------+----------------------------------------------------------------------------------------------------+------------+-------------|
 | *S.no | Experiment Name                                                                                    | Pass Count | Fail Count* |

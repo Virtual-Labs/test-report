@@ -28,6 +28,8 @@ passfailColumnwidth = 10
 defectColumnwidth = 15
 severityColumnwidth = 12
 allTestCasesLink = []
+pathDelimeter = os.path.sep
+
 
 def main(argv):
     if len(argv) < 2:
@@ -36,14 +38,14 @@ def main(argv):
         path = argv[1]
         targetDir = argv[2]
         if os.path.isdir(path) and os.path.exists(path):
-            path = path.rstrip("/")
-            targetDir = targetDir.rstrip("/")
+            path = path.rstrip(pathDelimeter)
+            targetDir = targetDir.rstrip(pathDelimeter)
             walk_over_path(path, targetDir)
         else:
             print "Provided target does not exists!"
 
 def create_testreport_inside_project(projectName, path):
-    testReportPath = path + "/testreport.org"
+    testReportPath = os.path.join(path,"testreport.org")
     linkToTestReport = "https://github.com/Virtual-Labs/test-reports/tree/master/" + projectName
     if not os.path.isfile(testReportPath):
         filePointer = open(testReportPath, 'w')
@@ -56,7 +58,7 @@ def create_testreport_inside_project(projectName, path):
 def walk_over_path(path, targetDir):
     projectName = os.path.basename(path)
     create_testreport_inside_project(projectName, path)
-    testCasesPath = path + "/test-cases/integration_test-cases/"
+    testCasesPath = os.path.join(path, "test-cases", "integration_test-cases")
     for root, dirs, files in os.walk(testCasesPath):
         dirs[:] = [d for d in dirs if not re.match(dirscombined, d)]
         files[:] = [f for f in files if not re.match(filescombinedexclude, f)]
@@ -71,7 +73,7 @@ def walk_over_path(path, targetDir):
 
 def createMetaFile(root, testCases, gitLabUrl):
     expname = testCases[0].split("_")[0]
-    metaFilePath = root + "/" + expname + "_metafile.org"
+    metaFilePath = os.path.join(root, expname + "_metafile.org")
     filePointer = open(metaFilePath, 'w')
     filePointer.write("S.no\t\tTest case link\n")
     count = 1
@@ -110,19 +112,19 @@ def make_directory(directory):
 def getDateTime():
     timetuple = time.localtime()
     date = "%s-%s-%s" %(timetuple[2], timetuple[1], timetuple[0])
-    currenttime = "%s:%s:%s" %(timetuple[3], timetuple[4], timetuple[5])
+    currenttime = "%shrs-%smins-%ssecs" %(timetuple[3], timetuple[4], timetuple[5])
     return date, currenttime
 
 def createTestReport(projectName, gitLabUrl, allTestCasesLink, targetDir):
     commit_id = raw_input("Please enter commit id for lab: %s\n" %(projectName))
     date, time = getDateTime()
     
-    projectDirectory = targetDir + "/"  + projectName
+    projectDirectory = os.path.join(targetDir, projectName)
     make_directory(projectDirectory)
-    testreportDirectory = projectDirectory + "/" + "%s_%s" %(date, commit_id)
+    testreportDirectory = os.path.join(projectDirectory, "%s_%s" %(date, commit_id))
     make_directory(testreportDirectory)
 
-    testReportPath = testreportDirectory + "/" + time + "_testreport.org" 
+    testReportPath = os.path.join(testreportDirectory, time + "_testreport.org")
     filePointer = open(testReportPath, 'w')
     filePointer.write("* Test Report\n")
     filePointer.write("** Lab Name : %s\n" %(projectName))

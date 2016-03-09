@@ -55,7 +55,7 @@ def walk_over_path(path):
         files[:] = [f for f in files if re.match(filescombined, f) and not re.match(filescombinedexcl, f)]
         for f in files:
             if (re.match(".*_testreport.org", f)):
-                filePath = root + "/" + f
+                filePath = os.path.join(root, f)
                 statistics = getStatistics(filePath)
     return
 
@@ -101,7 +101,7 @@ def getStatistics(path):
     time = filename.split("_")[0]
     commitId = commitIdLine.split(" ")[-1].strip("\n")
     labName = labNameLine.split(" ")[-1].strip("\n")
-    exppath = dirname + "/" + time + "_stats.org"
+    exppath = os.path.join(dirname, time + "_stats.org")
     write_to_file_per_lab(exppath, labNameLine, gitLabUrlLine, commitIdLine, statistics)
     return statistics
 
