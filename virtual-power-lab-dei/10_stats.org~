@@ -1,0 +1,39 @@
+* Statistics Report
+** Lab Name : virtual-power-lab-dei
+** GitHub URL : https://github.com/Virtual-Labs/virtual-power-lab-dei
+** Commit ID : ec71d717448864a76c3cba580acde8ca270790d0
+** Detailed Statistics : https://github.com/issues
+
+Total number of passed test cases = 165
+
+Total number of defects with S1 severity = 35
+
+Total number of defects with S2 severity = 36
+
+Total number of defects with S3 severity = 1
+
+Total number of failed test cases = 72
+
+|-------+----------------------------------------------------------------------------------------------------+------------+----+----+----+-------------|
+| *S.no | Experiment Name                                                                                    | Pass Count | S1 | S2 | S3 | Fail Count* |
+|-------+----------------------------------------------------------------------------------------------------+------------+----+----+----+-------------|
+|    1. | To Study the over-current relay and the effect of PSM and TSM                                      |         14 |  4 |  3 |  0 |           7 |
+|-------+----------------------------------------------------------------------------------------------------+------------+----+----+----+-------------|
+|    2. | To Study the Ferranti Effect of a transmission line cable                                          |         16 |  2 |  5 |  0 |           7 |
+|-------+----------------------------------------------------------------------------------------------------+------------+----+----+----+-------------|
+|    3. | determine the direct axis reactance (Xd) and quadrature axis reactance (Xq) of synchronous machine |         17 |  4 |  7 |  0 |          11 |
+|-------+----------------------------------------------------------------------------------------------------+------------+----+----+----+-------------|
+|    4. | To study the Synchronization of alternator with infinite bus bar                                   |         25 |  8 |  6 |  0 |          14 |
+|-------+----------------------------------------------------------------------------------------------------+------------+----+----+----+-------------|
+|    5. | Virtual Power                                                                                      |          8 |  0 |  1 |  0 |           1 |
+|-------+----------------------------------------------------------------------------------------------------+------------+----+----+----+-------------|
+|    6. | the sub-transient (xd), transient (xd) and steady state reactance (xd) of a synchronous machine    |         15 |  3 |  3 |  0 |           6 |
+|-------+----------------------------------------------------------------------------------------------------+------------+----+----+----+-------------|
+|    7. | To determine positive sequence, negative sequence and zero sequence reactances of an alternator    |         21 |  4 |  3 |  0 |           7 |
+|-------+----------------------------------------------------------------------------------------------------+------------+----+----+----+-------------|
+|    8. | To Study the gas actuated Buchholz relay for oil filled transformer                                |         17 |  4 |  3 |  0 |           7 |
+|-------+----------------------------------------------------------------------------------------------------+------------+----+----+----+-------------|
+|    9. | To measure the dielectric Strength of transformer oil                                              |         18 |  3 |  3 |  0 |           6 |
+|-------+----------------------------------------------------------------------------------------------------+------------+----+----+----+-------------|
+|   10. | To Study the effect of different shape of electrodes on dielectric (air) breakdown                 |         14 |  3 |  3 |  1 |           7 |
+|-------+----------------------------------------------------------------------------------------------------+------------+----+----+----+-------------|
